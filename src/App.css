@@ -1,0 +1,31 @@
+body {
+  background: #553055;
+}
+
+.App {
+  /* background: #4c2a4c; */
+  margin: 20px auto;
+  width: 90%;
+  color: #eee;
+}
+
+.postsHeader {
+  text-align: center;
+}
+
+.list {
+  padding: 10px 20px;
+  background: #6d3d6d;
+  margin: 10px 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
