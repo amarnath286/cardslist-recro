@@ -31,8 +31,10 @@ const PostsList = (props) => {
     }
 
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        if (dataLength !== (postsData && postsData.length)) {
+            window.addEventListener('scroll', handleScroll);
+            return () => window.removeEventListener('scroll', handleScroll);
+        }
     })
 
     return (
